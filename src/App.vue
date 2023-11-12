@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <h1>Cocktail Recipes</h1>
+      <h1><router-link to="/">Cocktail Recipes</router-link></h1>
       <nav>
         <ul>
           <li><router-link to="/simple">Simple Cocktails</router-link></li>
